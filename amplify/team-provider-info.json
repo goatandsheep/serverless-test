@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-serverlesstest-dev-102455-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619370739213:role/amplify-serverlesstest-dev-102455-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619370739213:role/amplify-serverlesstest-dev-102455-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-serverlesstest-dev-102455-deployment",
+      "UnauthRoleName": "amplify-serverlesstest-dev-102455-unauthRole",
+      "StackName": "amplify-serverlesstest-dev-102455",
+      "StackId": "arn:aws:cloudformation:us-east-1:619370739213:stack/amplify-serverlesstest-dev-102455/45193970-7f59-11eb-9cd4-1266a0dd9289",
+      "AmplifyAppId": "d20lvn0ctlvqs9"
+    },
+    "nonCFNdata": {
+      "function": {
+        "videoproc": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

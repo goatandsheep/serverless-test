@@ -1,0 +1,9 @@
+{
+  "function": {
+    "videoproc": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
+    }
+  }
+}
