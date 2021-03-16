@@ -67,11 +67,11 @@ functions:
     events:
       - httpApi:
           path: /
-          method: get
+          method: '*'
           cors: true
       - httpApi:
           path: /{proxy+}
-          method: any
+          method: '*'
           cors: true
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
