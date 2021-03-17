@@ -5,6 +5,7 @@
   "main": "handler.js",
   "scripts": {
     "windebug": "$Env:SLS_DEBUG='true'",
+    "pack": "npm-pack-all-zip",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +26,8 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-vue": "^7.7.0"
+    "eslint-plugin-vue": "^7.7.0",
+    "npm-pack-all-zip": "^0.2.0"
   },
   "dependencies": {
     "@vendia/serverless-express": "^4.3.4",
